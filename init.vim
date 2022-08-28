@@ -6,7 +6,7 @@ set hidden " Hide unused buffers
 set autoindent " Indent a new line
 set inccommand=split " Show replacements in a split screen
 set mouse=a " Allow to use the mouse in the editor
-set number " Shows the line numbers
+set number relativenumber" Shows the line numbers
 set title " Show file title
 set wildmenu " Show a more advance menu
 set cc=80 " Show at 80 column a border for good code style

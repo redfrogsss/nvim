@@ -27,6 +27,8 @@ Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-fugitive'
+Plug 'akinsho/toggleterm.nvim', {'tag' : 'v2.*'}
+Plug 'wakatime/vim-wakatime'
 call plug#end()
 
 
@@ -40,3 +42,7 @@ let g:onedark_config = {
   \ },
 \ }
 colorscheme onedark
+
+nmap <F2> :NERDTreeToggle<CR>
+
+" inoremap <expr> <TAB> pumvisible() ? "<C-y>" : "<TAB>"
